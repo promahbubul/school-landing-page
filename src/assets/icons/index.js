@@ -15,8 +15,12 @@ import { IoSearch } from "react-icons/io5";
 import ProblemSolvingIcon from "./problem-solving";
 import { MdOutlineArrowBackIos } from "react-icons/md";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
+import { SlArrowDown } from "react-icons/sl";
+import { FaRegStar } from "react-icons/fa6";
 
 export {
+  FaRegStar,
+  SlArrowDown,
   MdOutlineArrowBackIos,
   MdOutlineArrowForwardIos,
   ProblemSolvingIcon,
