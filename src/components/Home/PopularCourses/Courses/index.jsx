@@ -1,11 +1,9 @@
-import coursesData from "../../../../constant/home/courses.constant";
 import poplarCourseData from "../../../../constant/home/popularCourse.constant";
-import CourseCard from "./CoursesCard";
-import { FaRegStar } from "../../../../assets/icons";
+import { FaRegStar, GoPeople } from "../../../../assets/icons";
 
 const Courses = () => {
   return (
-    <div className="grid grid-cols-3 mt-14 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-3 mt-14 gap-8">
       {poplarCourseData.map(
         ({ id, img, price, rating, students, time, title }) => (
           <div
@@ -30,6 +28,18 @@ const Courses = () => {
                     {rating}
                   </span>
                 </div>
+              </div>
+              <div className="flex flex-row items-center justify-between">
+                <div className="flex flex-row items-center gap-4 text-base font-medium text-dark2">
+                  <p className="">{time}</p>
+                  <div className="flex flex-row items-center gap-2">
+                    <GoPeople className="text-lg text-green" />
+                    <p className="">{students} Students</p>
+                  </div>
+                </div>
+                <h3 className="text-2xl font-semibold text-green font-poppins">
+                  {price}$
+                </h3>
               </div>
             </div>
           </div>

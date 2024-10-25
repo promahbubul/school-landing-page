@@ -17,9 +17,11 @@ import { MdOutlineArrowBackIos } from "react-icons/md";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 import { SlArrowDown } from "react-icons/sl";
 import { FaRegStar } from "react-icons/fa6";
+import { GoPeople } from "react-icons/go";
 
 export {
   FaRegStar,
+  GoPeople,
   SlArrowDown,
   MdOutlineArrowBackIos,
   MdOutlineArrowForwardIos,
