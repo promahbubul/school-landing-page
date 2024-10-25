@@ -1,11 +1,8 @@
 import {
   cooking,
-  design,
   healthAndCard,
   marketing,
   photography,
-  programming,
-  technology,
 } from "../../assets/courses-categories";
 
 const coursesData = [
