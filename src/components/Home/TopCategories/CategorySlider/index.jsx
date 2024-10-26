@@ -85,7 +85,7 @@ const CategorySlider = () => {
       <div className="  flex flex-row items-center justify-between -translate-y-1/2 top-1/2  absolute w-full ">
         <button
           onClick={previous}
-          className="bg-white relative left-10 text-green hover:text-white hover:bg-green duration-500 p-5 rounded-full"
+          className="bg-white relative left-5 md:left-10 text-green hover:text-white hover:bg-green duration-500 p-5 rounded-full"
         >
           <MdOutlineArrowBackIos />
         </button>

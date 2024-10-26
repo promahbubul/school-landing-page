@@ -9,7 +9,7 @@ const LeftArea = ({ next, previous }) => {
   return (
     <div className="w-full md:w-4/12  flex items-end flex-row md:flex-col gap-6 md:gap-0">
       <div className="text-2xl md:text-2xl md:text-[48px]  relative text-black font-bold font-open-sans">
-        <h1 className="">
+        <h1 className="md:leading-normal">
           What our <span className="text-green">Students</span> say about us
         </h1>
         <img

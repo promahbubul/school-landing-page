@@ -3,7 +3,7 @@ import jobopportunitiesData from "../../../../constant/home/jobopertunities.cons
 function RightArea() {
   return (
     <div className="w-full md:w-8/12 ">
-      <h1 className="text-2xl md:text-[48px]  max-w-[533px] font-semibold font-poppins text-dark2">
+      <h1 className="text-2xl md:text-[48px]  max-w-[533px] font-semibold font-poppins leading-normal text-dark2">
         Let Your Education Do The Walking
       </h1>
       <div className="flex flex-col gap-4 md:gap-8 mt-6">
