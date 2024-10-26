@@ -8,7 +8,7 @@ import {
 
 const CompanyInfo = () => {
   return (
-    <div className="w-3/12 ">
+    <div className="w-full md:w-3/12 ">
       <h1 className="text-[32.8px] font-semibold font-open-sans text-white">
         WiSchool
       </h1>

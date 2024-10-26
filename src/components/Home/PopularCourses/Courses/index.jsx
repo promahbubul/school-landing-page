@@ -3,7 +3,7 @@ import { FaRegStar, GoPeople } from "../../../../assets/icons";
 
 const Courses = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 mt-14 gap-8">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-14 gap-4 md:gap-8">
       {poplarCourseData.map(
         ({ id, img, price, rating, students, time, title }) => (
           <div
@@ -17,9 +17,9 @@ const Courses = () => {
                 className="rounded-t-xl w-full object-cover"
               />
             </div>
-            <div className="p-6">
+            <div className="md:p-6 px-3 pt-1 pb-2">
               <div className="flex flex-row items-start justify-between">
-                <h1 className="text-2xl font-medium text-dark2 leading-normal">
+                <h1 className="text-sm md:text-2xl font-medium text-dark2 leading-normal">
                   {title}
                 </h1>
                 <div className="flex flex-row items-center gap-1">
@@ -29,11 +29,11 @@ const Courses = () => {
                   </span>
                 </div>
               </div>
-              <div className="flex flex-row items-center justify-between">
-                <div className="flex flex-row items-center gap-4 text-base font-medium text-dark2">
+              <div className="flex flex-col-reverse md:flex-row items-start md:items-center justify-between">
+                <div className="flex flex-row items-center gap-1 md:gap-4 text-xs md:text-base font-normal md:font-medium text-dark2">
                   <p className="">{time}</p>
                   <div className="flex flex-row items-center gap-2">
-                    <GoPeople className="text-lg text-green" />
+                    <GoPeople className=" text-green" />
                     <p className="">{students} Students</p>
                   </div>
                 </div>

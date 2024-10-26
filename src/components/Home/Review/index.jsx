@@ -21,7 +21,7 @@ const Review = () => {
   return (
     <section className="mt-24">
       <SectionTitle className={"text-center"} title={"Reviews"} />
-      <div className="flex flex-row gap-9">
+      <div className="flex flex-col md:flex-row gap-9">
         <LeftArea next={next} previous={previous} />
         <RightArea sliderRef={sliderRef} Slider={Slider} />
       </div>

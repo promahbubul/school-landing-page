@@ -10,7 +10,7 @@ const Heading = () => {
         className={"Most Popular courses"}
       />
       <Button
-        className={"px-4 py-2 !rounded-full"}
+        className={"px-2 md:px-4 py-1 md:py-2 !rounded-full !text-xs  !md:text-base "}
         text={"Sort by"}
         icon={SlArrowDown}
       />

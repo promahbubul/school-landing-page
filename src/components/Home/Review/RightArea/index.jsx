@@ -40,7 +40,7 @@ const RightArea = ({ sliderRef }) => {
     ],
   };
   return (
-    <div className="w-8/12">
+    <div className="w-full md:w-8/12">
       <Slider
         ref={(slider) => {
           console.log(slider);

@@ -6,7 +6,7 @@ const JobOpportunities = () => {
   return (
     <section className="mt-14">
       <SectionTitle title={"We Bring The Good Education To Life"} />
-      <div className="flex flex-row items-center mt-16 gap-24">
+      <div className="flex flex-col md:flex-row items-center mt-16 gap-24">
         <LeftArea />
         <RightArea />
       </div>

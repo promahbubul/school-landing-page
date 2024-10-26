@@ -60,7 +60,7 @@ const CategorySlider = () => {
       >
         {/* Card 1 */}
         {coursesData.map(({ description, id, img, title }) => (
-          <div className="pl-8  h-full" key={id}>
+          <div className="md:pl-8  h-full" key={id}>
             <div className="relative group  overflow-hidden h-full cursor-pointer">
               <div className="bg-black/50 absolute inset-0"></div>
               <img

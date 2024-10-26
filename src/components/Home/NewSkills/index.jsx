@@ -65,7 +65,7 @@ const NewSkills = () => {
         >
           {newSkillData.map(
             ({ id, img, price, rating, students, time, title }) => (
-              <div key={id} className="pl-8 pb-2 -translate-x-8">
+              <div key={id} className="pl-2 md:pl-8 pb-2  md:-translate-x-8">
                 <div className="rounded-xl transition-all duration-500 hover:-translate-y-5 shadow-md drop-shadow cursor-pointer bg-white">
                   <div className="w-full">
                     <img
