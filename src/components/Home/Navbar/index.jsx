@@ -19,7 +19,7 @@ const Navbar = () => {
         </span>
       </div>
       {/* Desktop Navbar */}
-      <div className="shadow-sm px-4 md:px-5 sticky top-0 left-0 z-50 bg-white">
+      <div className="shadow-sm px-4 md:px-5 sticky top-0 left-0 z-[1000] bg-white">
         <div className="hidden max-w-7xl  mx-auto md:flex flex-row justify-between items-center">
           {/* Left */}
           <NavLeft />
