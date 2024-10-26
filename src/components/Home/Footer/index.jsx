@@ -1,6 +1,14 @@
+import FooterBottom from "./FooterBottom";
+import FooterTop from "./FooterTop";
+
 const Footer = () => {
   return (
-    <div>Footer</div>
-  )
-}
-export default Footer
+    <section className="bg-black pt-28 pb-14">
+      <div className="max-w-7xl mx-auto px-4 md:px-5">
+        <FooterTop />
+        <FooterBottom />
+      </div>
+    </section>
+  );
+};
+export default Footer;

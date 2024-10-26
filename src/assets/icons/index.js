@@ -18,8 +18,12 @@ import { MdOutlineArrowForwardIos } from "react-icons/md";
 import { SlArrowDown } from "react-icons/sl";
 import { FaRegStar } from "react-icons/fa6";
 import { GoPeople } from "react-icons/go";
+import groupPeopleIcon from "./group-people";
+import underline from "./underline.png";
 
 export {
+  underline,
+  groupPeopleIcon,
   FaRegStar,
   GoPeople,
   SlArrowDown,
