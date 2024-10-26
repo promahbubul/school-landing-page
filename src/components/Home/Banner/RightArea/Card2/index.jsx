@@ -2,7 +2,7 @@ import { PeopleIcon } from "../../../../../assets/icons";
 
 const Card2 = () => {
   return (
-    <div className="md:p-3 p-1 bottom-10  w-[129px] md:pb-2 flex flex-col justify-center items-center absolute drop-shadow-2xl shadow-lg -right-10  bg-white rounded-lg  rounded-br-5">
+    <div className="md:p-3 p-1 bottom-0 md:bottom-10 w-[77.84px] md:w-[129px] md:pb-2 flex flex-col justify-center items-center absolute drop-shadow-2xl shadow-lg -right-5 md:-right-10  bg-white rounded-lg  rounded-br-5">
       <div className="p-2 w-max rounded-full bg-light-green">
         <PeopleIcon />
       </div>

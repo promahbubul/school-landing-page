@@ -11,7 +11,7 @@ const RightArea = () => {
       >
         <img
           src={bannerImg}
-          className="relative group-hover:scale-125 group-hover:translate-y-14 group-hover:-translate-x-10 w-8/12 md:w-full    ease-in-out duration-1000 "
+          className="relative group-hover:scale-125 group-hover:translate-y-14 group-hover:-translate-x-10 w-full    ease-in-out duration-1000 "
           alt=""
         />
       </div>

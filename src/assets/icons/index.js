@@ -20,9 +20,15 @@ import { FaRegStar } from "react-icons/fa6";
 import { GoPeople } from "react-icons/go";
 import groupPeopleIcon from "./group-people";
 import underline from "./underline.png";
+import { SlMenu } from "react-icons/sl";
+import { FaRegUserCircle } from "react-icons/fa";
+
+
 
 export {
   underline,
+  FaRegUserCircle,
+  SlMenu,
   groupPeopleIcon,
   FaRegStar,
   GoPeople,

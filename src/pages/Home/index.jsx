@@ -14,8 +14,8 @@ const Home = () => {
   return (
     <div className="">
       {/* Container */}
-      <div className="max-w-7xl mx-auto px-4 md:px-5">
         <Navbar />
+      <div className="max-w-7xl mx-auto px-4 md:px-5">
         <Banner />
         <IconsGroup />
         <TopCategories />
