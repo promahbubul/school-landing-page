@@ -1,4 +1,3 @@
-import { useState } from "react";
 import instructorData from "../../../constant/home/instructor.constant";
 import SectionTitle from "../../shared/ui/SectionTitle";
 import Card from "./Card";

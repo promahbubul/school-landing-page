@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import reviewsData from "../../../../constant/home/reviews.constant";
 
-const RightArea = ({ sliderRef }) => {
+const RightArea = () => {
   var settings = {
     dots: false,
     infinite: false,
@@ -41,12 +41,7 @@ const RightArea = ({ sliderRef }) => {
   };
   return (
     <div className="w-full md:w-8/12">
-      <Slider
-        ref={(slider) => {
-          console.log(slider);
-        }}
-        {...settings}
-      >
+      <Slider {...settings}>
         {reviewsData.map(({ designation, id, img, name, comment }) => (
           <div key={id} className="pl-5 py-2 -translate-x-3">
             <div className="shadow-md rounded-md  px-12 pb-12 pt-16">
