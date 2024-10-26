@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import SectionTitle from "../../shared/ui/SectionTitle";
 import Slider from "react-slick";
 
