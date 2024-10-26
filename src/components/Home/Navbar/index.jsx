@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
       {/* Mobile Navbar */}
-      <div className="flex md:hidden flex-row py-5 justify-between items-center">
+      <div className="flex px-4 md:px-5  md:hidden flex-row py-5 justify-between items-center">
         <div className="flex flex-row items-center gap-3">
           <span className="text-3xl">
             <SlMenu />

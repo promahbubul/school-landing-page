@@ -22,11 +22,14 @@ import groupPeopleIcon from "./group-people";
 import underline from "./underline.png";
 import { SlMenu } from "react-icons/sl";
 import { FaRegUserCircle } from "react-icons/fa";
+import { IoCloseOutline } from "react-icons/io5";
+
 
 
 
 export {
   underline,
+  IoCloseOutline,
   FaRegUserCircle,
   SlMenu,
   groupPeopleIcon,
