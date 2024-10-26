@@ -8,10 +8,9 @@
 
 </a>
 
-
 ### Features
+
 - Navbar animated and search modal
 - banner with hover scale banner image
 - category with slider and hover effect
 - popular course section with hover translate animation
-- 
